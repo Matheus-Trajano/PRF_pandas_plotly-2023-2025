@@ -1,0 +1,14 @@
+# Dados e resultados SÃO versionados: o repositório é autocontido — quem clona
+# já tem os CSVs de origem, as bases tratadas e os gráficos, e pode rodar os
+# notebooks sem baixar nada.
+# Ficam de fora apenas os artefatos de download e de ambiente:
+google_drive/
+*.zip
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
